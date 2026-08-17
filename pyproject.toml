@@ -1,0 +1,8 @@
+[project]
+name = "ai-ml-pharma-demo"
+version = "0.1.0"
+description = "Beginner-friendly Python and machine-learning examples for pharmaceutical sciences."
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

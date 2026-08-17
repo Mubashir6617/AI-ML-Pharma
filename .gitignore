@@ -1,0 +1,27 @@
+# Python bytecode and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and environment files
+.venv/
+venv/
+env/
+.env
+
+# Jupyter checkpoints and local notebook output
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and model artifacts (keep the small demo CSV tracked)
+data/interim/
+data/processed/
+models/
+*.joblib
